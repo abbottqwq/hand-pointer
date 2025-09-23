@@ -1,0 +1,17 @@
+.camera-controls {
+	position: fixed;
+	left: 16px;
+	right: 16px;
+	bottom: calc(env(safe-area-inset-bottom) + 12px);
+	display: flex;
+	gap: 8px;
+	justify-content: space-between;
+	z-index: 10;
+}
+
+.camera-controls button,
+.camera-controls select {
+	padding: 8px 12px;
+	border-radius: 10px;
+	border: none;
+}
